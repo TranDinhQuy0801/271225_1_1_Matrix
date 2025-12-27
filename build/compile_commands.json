@@ -1,0 +1,14 @@
+[
+{
+  "directory": "/Users/quytrandinh/Desktop/Projects_for_CV/271225_1_1_Matrix/build/src",
+  "command": "/usr/bin/clang++  -I/Users/quytrandinh/Desktop/Projects_for_CV/271225_1_1_Matrix/include -g -std=gnu++17 -arch arm64 -o CMakeFiles/MiniTensor.dir/Tensor.cpp.o -c /Users/quytrandinh/Desktop/Projects_for_CV/271225_1_1_Matrix/src/Tensor.cpp",
+  "file": "/Users/quytrandinh/Desktop/Projects_for_CV/271225_1_1_Matrix/src/Tensor.cpp",
+  "output": "src/CMakeFiles/MiniTensor.dir/Tensor.cpp.o"
+},
+{
+  "directory": "/Users/quytrandinh/Desktop/Projects_for_CV/271225_1_1_Matrix/build/test",
+  "command": "/usr/bin/clang++  -I/Users/quytrandinh/Desktop/Projects_for_CV/271225_1_1_Matrix/include -g -std=gnu++17 -arch arm64 -o CMakeFiles/demo_app.dir/main.cpp.o -c /Users/quytrandinh/Desktop/Projects_for_CV/271225_1_1_Matrix/test/main.cpp",
+  "file": "/Users/quytrandinh/Desktop/Projects_for_CV/271225_1_1_Matrix/test/main.cpp",
+  "output": "test/CMakeFiles/demo_app.dir/main.cpp.o"
+}
+]

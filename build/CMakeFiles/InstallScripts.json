@@ -1,0 +1,9 @@
+{
+	"InstallScripts" : 
+	[
+		"/Users/quytrandinh/Desktop/Projects_for_CV/271225_1_1_Matrix/build/cmake_install.cmake",
+		"/Users/quytrandinh/Desktop/Projects_for_CV/271225_1_1_Matrix/build/src/cmake_install.cmake",
+		"/Users/quytrandinh/Desktop/Projects_for_CV/271225_1_1_Matrix/build/test/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

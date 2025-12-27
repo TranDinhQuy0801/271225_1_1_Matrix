@@ -1,0 +1,12 @@
+cmake_minimum_required(VERSION 3.10)
+
+# NAME AND VERSION OF THE PROJECT.
+project(271225_1_1_MATRIX VERSION 1.0.0 LANGUAGES CXX)
+
+# SETTING ( C++ 17 : STARDARD).
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
+# REQUIRED FOLDERS:
+add_subdirectory(src)
+add_subdirectory(test)

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libMiniTensor.a CMakeFiles/MiniTensor.dir/Tensor.cpp.o
+/usr/bin/ranlib libMiniTensor.a

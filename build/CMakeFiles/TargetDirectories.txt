@@ -1,0 +1,8 @@
+/Users/quytrandinh/Desktop/Projects_for_CV/271225_1_1_Matrix/build/CMakeFiles/edit_cache.dir
+/Users/quytrandinh/Desktop/Projects_for_CV/271225_1_1_Matrix/build/CMakeFiles/rebuild_cache.dir
+/Users/quytrandinh/Desktop/Projects_for_CV/271225_1_1_Matrix/build/src/CMakeFiles/MiniTensor.dir
+/Users/quytrandinh/Desktop/Projects_for_CV/271225_1_1_Matrix/build/src/CMakeFiles/edit_cache.dir
+/Users/quytrandinh/Desktop/Projects_for_CV/271225_1_1_Matrix/build/src/CMakeFiles/rebuild_cache.dir
+/Users/quytrandinh/Desktop/Projects_for_CV/271225_1_1_Matrix/build/test/CMakeFiles/demo_app.dir
+/Users/quytrandinh/Desktop/Projects_for_CV/271225_1_1_Matrix/build/test/CMakeFiles/edit_cache.dir
+/Users/quytrandinh/Desktop/Projects_for_CV/271225_1_1_Matrix/build/test/CMakeFiles/rebuild_cache.dir
