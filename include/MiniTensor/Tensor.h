@@ -6,7 +6,7 @@ namespace MiniTensor{
         private:
             int m_rows;
             int m_cols; 
-            std::vector<int> m_data;
+            std::vector<double> m_data;
         public:
             // Constructor
             Tensor(int rows, int cols);
@@ -17,6 +17,7 @@ namespace MiniTensor{
             int getRows() const{return m_rows;};
             int getCols() const{return m_cols;};
             // Display function
-            void print() const;
+            void print_shape() const;
+            void print_matrix() const;
     };
 };
