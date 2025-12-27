@@ -24,8 +24,9 @@ namespace MiniTensor{
     void Tensor::print_matrix() const{
         for(size_t i = 0; i < m_rows; i++){
             for(size_t j = 0; j < m_cols; j++){
-                std::cout << m_data[i*m_cols + j];
+                std::cout << m_data[i*m_cols + j] << " ";
             }
+            std::cout << std::endl;
         }
     }
 
