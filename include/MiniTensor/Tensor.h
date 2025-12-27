@@ -10,6 +10,12 @@ namespace MiniTensor{
         public:
             // Constructor
             Tensor(int rows, int cols);
+            // Function to add members for the matrix
+            double& at(int r, int c);
+            const double& at(int r, int c) const; //const -> function can't change member of this class ( rows and cols)
+            // Function to get the size
+            int getRows() const{return m_rows;};
+            int getCols() const{return m_cols;};
             // Display function
             void print() const;
     };
