@@ -1,6 +1,7 @@
 #pragma once
 #include<vector>
 #include<iostream> 
+#include<iomanip>
 namespace MiniTensor{
     class Tensor{
         private:
@@ -16,6 +17,8 @@ namespace MiniTensor{
             // Function to get the size
             int getRows() const{return m_rows;};
             int getCols() const{return m_cols;};
+            // Function for addition of matrixs
+            void add();
             // Display function
             void print_shape() const;
             void print_matrix() const;
