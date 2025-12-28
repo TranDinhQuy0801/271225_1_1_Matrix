@@ -11,7 +11,7 @@ namespace MiniTensor{
         public:
             // Constructor
             Tensor(int rows, int cols);
-            void random_matrix(double means, int stddev); // stddev : standard deviation
+            void random_matrix(double means = 0.0, double stddev = 1.0); // stddev : standard deviation
             // Function to add members for the matrix
             double& at(int r, int c);
             const double& at(int r, int c) const; //const -> function can't change member of this class ( rows and cols)
