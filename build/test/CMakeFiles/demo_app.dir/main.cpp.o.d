@@ -791,4 +791,5 @@ test/CMakeFiles/demo_app.dir/main.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/stack.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/print \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/unistd.h \
-  /Users/quytrandinh/Desktop/Projects_for_CV/271225_1_1_Matrix/include/MiniTensor/Tensor.h
+  /Users/quytrandinh/Desktop/Projects_for_CV/271225_1_1_Matrix/include/MiniTensor/Tensor.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iomanip
