@@ -18,6 +18,8 @@ namespace MiniTensor{
             // Function to get the size
             int getRows() const{return m_rows;};
             int getCols() const{return m_cols;};
+            // Function to add 2 matrix
+            Tensor operator+ (const Tensor other);
             // Display function
             void print_shape() const;
             void print_matrix() const;
