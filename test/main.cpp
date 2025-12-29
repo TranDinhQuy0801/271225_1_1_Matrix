@@ -6,10 +6,10 @@ int main(){
 
     // Testing on a 3x4 Tensor
     MiniTensor::Tensor t_1(3,4);
-    MiniTensor::Tensor t_2(3,4);
+    MiniTensor::Tensor t_2(4,4);
     t_1.random_matrix (0,1);
     t_2.random_matrix (0,1);
-    MiniTensor::Tensor t_3 = t_1 + t_2;
+    MiniTensor::Tensor t_3 = t_1.matmul(t_2);
     t_1.print_matrix();
     t_2.print_matrix();
     t_3.print_matrix();
