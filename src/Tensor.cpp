@@ -1,6 +1,7 @@
 #include"MiniTensor/Tensor.h"
 #include<stdexcept> // EXCEPTION HANDLING
 #include<random>
+#include<cmath>
 namespace MiniTensor{
     //Default values
     Tensor::Tensor(int rows, int cols)
@@ -37,6 +38,25 @@ namespace MiniTensor{
                 result.m_data[i*m_cols + j] = this->m_data[i*m_cols + j] + other.m_data[i*m_cols + j];
             }
         }
+        return result;
+    };
+    Tensor Tensor::matmul(const Tensor other) const{
+        if(this->m_cols != other.m_rows){
+            throw std::invalid_argument("Dimension mismatch: Cols of A must match Rows of B");
+        }
+        double rows = this->m_rows;
+        double cols = other.m_cols;
+        double K = this->m_cols; // K : shared dimension -> the same size of these 2.
+        Tensor result(rows,cols);
+        for(int i = 0; i < rows; i++){
+            for(int j = 0; j < cols; j++){
+                double addition = 0;
+                for(int k = 0; k < K;k++){
+                    addition += (this->at(i,k)*other.at(k,j));
+                };
+                result.at(i,j) += addition;
+            };
+        };
         return result;
     };
     void Tensor::print_shape() const{
