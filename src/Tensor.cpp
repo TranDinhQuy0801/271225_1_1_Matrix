@@ -30,9 +30,18 @@ namespace MiniTensor{
         }
         return m_data[r*m_cols + c];
     };
+    Tensor Tensor::operator+(const Tensor other){ //m_3 = m_1 + m_2 ~ m_3 = m_1.operator+ (m_2);
+        Tensor result(this->m_rows, this->m_cols);
+        for(int i = 0; i < m_rows; i++){
+            for(int j = 0; j < m_cols; j++){
+                result.m_data[i*m_cols + j] = this->m_data[i*m_cols + j] + other.m_data[i*m_cols + j];
+            }
+        }
+        return result;
+    };
     void Tensor::print_shape() const{
         std::cout << "Tensor Shape: (" << m_rows << "," << m_cols << ")" << std::endl;
-    }
+    };
     void Tensor::print_matrix() const{
         for(size_t i = 0; i < m_rows; i++){
             for(size_t j = 0; j < m_cols; j++){
@@ -40,7 +49,8 @@ namespace MiniTensor{
             }
             std::cout << std::endl;
         }
-    }
+        std::cout << std::endl;
+    };
 
 }
 
