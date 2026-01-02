@@ -15,6 +15,9 @@ namespace MiniTensor{
             // Function to add members for the matrix
             double& at(int r, int c);
             const double& at(int r, int c) const; //const -> function can't change member of this class ( rows and cols)
+            // Function to working with nodes
+            Tensor relu() const;
+            Tensor sigmoid() const;
             // Function to get the size
             int getRows() const{return m_rows;};
             int getCols() const{return m_cols;};
